@@ -42,7 +42,7 @@ function Header({ placeholder }) {
 
     
     return (
-        <header className="sticky top-0 z-50 grid grid-cols-3 bg-black-400  text-white shadow-md p-5 md:px-10">
+        <header className="sticky top-0 z-50 grid grid-cols-3 bg-black  text-white shadow-md p-5 md:px-10">
             {/* Left */}
             <div onClick={() => router.push("/")} 
             className="relative flex items-center h-10 cursor-pointer my-auto">
